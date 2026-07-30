@@ -149,6 +149,7 @@ img{max-width:100%;display:block}
 .lang-pill{display:inline-flex;align-items:center;gap:7px;border:1px solid #C4B694;border-radius:999px;padding:8px 14px 8px 10px;font-size:.88rem;font-family:'Noto Serif KR',serif;font-weight:600;color:#1d2b64;background:#FBF6E9;text-decoration:none;box-shadow:0 1px 3px rgba(80,60,20,.08)}
 .lang-pill:hover{background:var(--ivory)}
 .lang-pill .chev{font-size:.7rem;color:#8b8264;margin-left:2px}
+.lang-pill .flag{width:21px;height:14px;border-radius:2.5px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:0 0 auto}
 
 /* ── 원본형 탭 메뉴 ── */
 .tabs{position:sticky;top:0;z-index:50;background:#F6EEDB;border-bottom:1px solid #DFD2B4;overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -206,7 +207,8 @@ img{max-width:100%;display:block}
 
 .home-reviews{margin:34px 0 8px}
 .mini-head{max-width:1060px;margin:0 auto 14px;padding:0 22px;font-size:.85rem;letter-spacing:.12em;color:#8F7D5E;font-weight:600}
-.testi-marquee{margin:26px 0 10px}
+.trust-note{max-width:780px;margin:26px auto 0;padding:12px 18px;text-align:center;font-size:.9rem;color:#6b5b41;background:#F6EEDB;border:1px solid #DFD2B4;border-radius:12px}
+.testi-marquee{margin:16px 0 10px}
 
 /* 고객후기 탭 */
 .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;max-width:1060px;margin:10px auto 26px;padding:0 18px}
@@ -234,7 +236,7 @@ img{max-width:100%;display:block}
 
 
 /* ── 공통 하단: 요금 · FAQ ── */
-.shared{max-width:1060px;margin:0 auto;padding:0 22px}
+.shared{max-width:780px;margin:0 auto;padding:0 18px}
 .price{padding:56px 0 8px;border-top:1px solid var(--line)}
 table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.95rem}
 th,td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line)}
@@ -268,8 +270,8 @@ footer .biz{max-width:1060px;margin:22px auto 0;padding:18px 22px 0;border-top:1
 
 <header class="site-head">
   <div class="langs">
-    <a class="lang-pill" href="cn.html">🇨🇳 中文 <span class="chev">∨</span></a>
-    <a class="lang-pill" href="en.html">🇺🇸 English <span class="chev">∨</span></a>
+    <a class="lang-pill" href="cn.html"><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#DE2910"/><polygon fill="#FFDE00" points="6,2.2 7,4.9 9.8,4.9 7.5,6.6 8.4,9.3 6,7.6 3.6,9.3 4.5,6.6 2.2,4.9 5,4.9"/><circle cx="11.4" cy="2.6" r=".8" fill="#FFDE00"/><circle cx="13" cy="4.4" r=".8" fill="#FFDE00"/><circle cx="13" cy="6.8" r=".8" fill="#FFDE00"/><circle cx="11.4" cy="8.6" r=".8" fill="#FFDE00"/></svg> 中文 <span class="chev">∨</span></a>
+    <a class="lang-pill" href="en.html"><svg class="flag" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#fff"/><g fill="#B22234"><rect y="0" width="30" height="1.54"/><rect y="3.08" width="30" height="1.54"/><rect y="6.15" width="30" height="1.54"/><rect y="9.23" width="30" height="1.54"/><rect y="12.31" width="30" height="1.54"/><rect y="15.38" width="30" height="1.54"/><rect y="18.46" width="30" height="1.54"/></g><rect width="12.6" height="10.77" fill="#3C3B6E"/><g fill="#fff"><circle cx="2.1" cy="1.9" r=".7"/><circle cx="6.3" cy="1.9" r=".7"/><circle cx="10.5" cy="1.9" r=".7"/><circle cx="4.2" cy="4.2" r=".7"/><circle cx="8.4" cy="4.2" r=".7"/><circle cx="2.1" cy="6.5" r=".7"/><circle cx="6.3" cy="6.5" r=".7"/><circle cx="10.5" cy="6.5" r=".7"/><circle cx="4.2" cy="8.8" r=".7"/><circle cx="8.4" cy="8.8" r=".7"/></g></svg> English <span class="chev">∨</span></a>
   </div>
   <h1 class="site-logo"><a href="#home">온더탑스튜디오</a></h1>
   <p class="site-sub">GWANGGYO PARTY ROOM · SELF STUDIO</p>
@@ -528,6 +530,7 @@ footer .biz{max-width:1060px;margin:22px auto 0;padding:18px 22px 0;border-top:1
   </section>
 
   <section class="page" id="testimonials">
+    <p class="trust-note">아래에 흐르는 리뷰는 현재 네이버에 실제로 등록되어 있는 방문자 리뷰를 캡처한 이미지입니다.</p>
     <div class="testi-marquee">
       <div class="marquee" aria-label="방문자 후기 목록">
       <div class="track">
