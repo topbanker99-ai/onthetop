@@ -6,9 +6,12 @@
 <title>스튜디오 온더탑 | 광교 파티룸·셀프사진관 — 돌잔치·백일상·브라이덜샤워·프로포즈·환갑</title>
 <meta name="description" content="수원 광교호수공원이 내려다보이는 고층 파티룸 스튜디오 온더탑. 광교 돌잔치·백일상·브라이덜샤워·프로포즈·환갑연·스몰웨딩·회의실 대관. 평일 4시간 12만원부터, 셀프사진 촬영·인화 포함. 광교중앙역 인근.">
 <link rel="canonical" href="https://onthetop.kr/">
+<link rel="alternate" hreflang="ko" href="https://onthetop.kr/">
+<link rel="alternate" hreflang="zh" href="https://onthetop.kr/cn.html">
+<link rel="alternate" hreflang="en" href="https://onthetop.kr/en.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="스튜디오 온더탑 — 광교 파티룸·셀프사진관">
-<meta property="og:description" content="광교호수공원 뷰 고층 파티룸. 돌잔치·백일상·브라이덜샤워·프로포즈·환갑연을 한 공간에서. 평일 4시간 120,000원부터.">
+<meta property="og:description" content="돌잔치·백일상·브라이덜샤워·프로포즈·환갑연을 한 공간에서. 평일 4시간 120,000원부터.">
 <meta property="og:image" content="https://cdn.imweb.me/thumbnail/20250122/52b38e74fc341.jpg">
 <meta property="og:url" content="https://onthetop.kr/">
 <meta property="og:locale" content="ko_KR">
@@ -58,7 +61,6 @@
   ]
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -110,365 +112,320 @@
 
 <style>
 :root{
-  --ivory:#F6F1E7;
-  --sand:#EDE5D5;
-  --brown:#4A3B2A;
-  --brown-soft:#8A7A63;
-  --lake:#5F7186;
-  --line:#DDD2BE;
-  --white:#FFFDF9;
+  --cream:#FBF6E9; --ivory:#F6F1E7; --sand:#EDE5D5;
+  --brown:#3E3327; --brown-soft:#8A7A63; --lake:#5F7186;
+  --line:#E2D8C3; --white:#FFFDF9;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
-  font-family:'Pretendard',-apple-system,sans-serif;
-  background:var(--ivory);
-  color:var(--brown);
-  line-height:1.65;
-  font-size:16.5px;
-  -webkit-font-smoothing:antialiased;
-}
+body{font-family:'Pretendard',-apple-system,sans-serif;background:var(--cream);color:var(--brown);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
 .serif{font-family:'Noto Serif KR',serif}
-.wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+img{max-width:100%;display:block}
 
-/* header */
-header{
-  position:sticky;top:0;z-index:50;
-  background:rgba(246,241,231,.92);backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--line);
+/* ── 원본형 헤더: 가운데 로고 + 우측 언어 버튼 ── */
+.site-head{position:relative;background:#fff;padding:26px 20px 20px;text-align:center;border-bottom:1px solid #eee}
+.site-logo{font-family:'Noto Serif KR',serif;font-size:clamp(1.6rem,4vw,2.1rem);font-weight:700;letter-spacing:.04em;color:#222}
+.site-logo a{color:inherit;text-decoration:none}
+.site-sub{font-size:.78rem;color:var(--brown-soft);letter-spacing:.24em;margin-top:4px}
+.langs{position:absolute;top:22px;right:20px;display:flex;gap:8px}
+@media (max-width:640px){
+  .site-head{padding-top:64px}
+  .langs{top:14px;right:14px}
+  .lang-pill{padding:6px 12px;font-size:.8rem}
 }
-.hd{display:flex;align-items:center;justify-content:space-between;height:66px}
-.logo{font-family:'Noto Serif KR',serif;font-weight:700;font-size:1.25rem;letter-spacing:.02em;color:var(--brown);text-decoration:none}
-.logo small{display:block;font-family:'Pretendard';font-weight:500;font-size:.62rem;letter-spacing:.32em;color:var(--brown-soft)}
-nav{display:flex;gap:22px;align-items:center}
-nav a{color:var(--brown);text-decoration:none;font-size:.92rem;font-weight:500}
-nav a:hover{color:var(--lake)}
-.btn{
-  display:inline-block;background:var(--brown);color:var(--ivory);
-  padding:11px 22px;border-radius:999px;text-decoration:none;
-  font-weight:600;font-size:.92rem;border:1px solid var(--brown);
-  transition:background .2s;
-}
-.btn:hover{background:#5d4c37}
-.btn.ghost{background:transparent;color:var(--brown)}
-.btn.ghost:hover{background:var(--sand)}
-.btn.kakao{background:#FAE100;border-color:#FAE100;color:#3C1E1E}
-.btn.kakao:hover{background:#F2D900}
-.tel-line{font-size:.88rem;color:var(--brown-soft)}
-.tel-line a{color:var(--brown-soft)}
-#menuToggle{display:none;background:none;border:none;font-size:1.5rem;color:var(--brown);cursor:pointer}
+.lang-pill{display:inline-flex;align-items:center;gap:6px;border:1px solid #d8d2c2;border-radius:999px;padding:7px 16px;font-size:.85rem;color:#2b3a6b;background:#fff;text-decoration:none}
+.lang-pill:hover{background:var(--ivory)}
 
-/* hero */
-.hero{padding:64px 0 30px;text-align:center}
-.hero .eyebrow{font-size:.8rem;letter-spacing:.3em;color:var(--lake);font-weight:600;margin-bottom:18px}
-.hero h1{font-family:'Noto Serif KR',serif;font-size:clamp(1.7rem,4.2vw,2.7rem);font-weight:600;line-height:1.4;margin-bottom:18px}
-.hero p{max-width:620px;margin:0 auto 26px;color:var(--brown-soft);font-size:1.02rem}
-.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
-.hero .tel-line{margin-bottom:40px}
-.arch-hero{
-  max-width:760px;margin:0 auto;overflow:hidden;
-  border-radius:380px 380px 18px 18px;
-  border:1px solid var(--line);
-  box-shadow:0 24px 60px rgba(74,59,42,.16);
-}
-.arch-hero img{width:100%;display:block;aspect-ratio:4/3.4;object-fit:cover}
+/* ── 원본형 탭 메뉴 ── */
+.tabs{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e5e0d2;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tabs ul{display:flex;justify-content:center;gap:6px;list-style:none;min-width:max-content;padding:0 12px}
+.tabs a{display:block;padding:16px 16px 13px;font-size:1.02rem;font-weight:700;color:#222;text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap}
+.tabs a:hover{color:var(--lake)}
+.tabs a.active{border-bottom-color:#222}
 
-/* facts */
-.facts{padding:54px 0}
-.facts ul{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-  gap:14px;list-style:none;
-}
-.facts li{
-  background:var(--white);border:1px solid var(--line);border-radius:14px;
-  padding:18px 20px;font-size:.95rem;
-}
-.facts li b{display:block;font-weight:700;margin-bottom:4px;color:var(--brown)}
-.facts li span{color:var(--brown-soft)}
-
-/* section */
-section.svc{padding:58px 0;border-top:1px solid var(--line)}
-section.svc.alt{background:var(--sand)}
-.sec-head{max-width:640px;margin-bottom:30px}
-.sec-head .eyebrow{font-size:.78rem;letter-spacing:.26em;color:var(--lake);font-weight:600;margin-bottom:10px}
-.sec-head h2{font-family:'Noto Serif KR',serif;font-size:clamp(1.35rem,3vw,1.85rem);font-weight:600;margin-bottom:14px;line-height:1.4}
-.sec-head p{color:var(--brown-soft);font-size:.98rem}
-.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:26px}
-.svc-grid figure{overflow:hidden;border-radius:130px 130px 12px 12px;border:1px solid var(--line);background:var(--white)}
-.svc-grid img{width:100%;display:block;aspect-ratio:860/1100;object-fit:cover;transition:transform .35s}
-.svc-grid figure:hover img{transform:scale(1.03)}
-.include{
-  background:var(--white);border:1px solid var(--line);border-radius:14px;
-  padding:20px 24px;
-}
+/* ── 탭 페이지: 원본처럼 세로 이미지 스택 ── */
+.page{display:none}
+.page.active{display:block}
+.stack{max-width:780px;margin:26px auto 0;padding:0 14px;display:flex;flex-direction:column;gap:12px}
+.stack img{width:100%;border-radius:4px}
+.pagetext{max-width:780px;margin:34px auto 10px;padding:0 18px}
+.pagetext h2{font-size:1.3rem;font-weight:600;margin-bottom:12px}
+.pagetext p{color:var(--brown-soft);font-size:.97rem;margin-bottom:18px}
+.include{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:20px 24px}
 .include h3{font-size:.95rem;font-weight:700;margin-bottom:10px}
 .include ul{list-style:none}
 .include li{padding:4px 0 4px 20px;position:relative;font-size:.94rem;color:var(--brown-soft)}
 .include li::before{content:"";position:absolute;left:2px;top:13px;width:8px;height:8px;border-radius:50% 50% 2px 2px;background:var(--lake)}
 
-/* price */
-.price{padding:64px 0;border-top:1px solid var(--line)}
-table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.96rem}
-th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line)}
-th{background:var(--sand);font-weight:700;font-size:.9rem}
-tr:last-child td{border-bottom:none}
-td.num{text-align:right;font-weight:700;white-space:nowrap}
-.tbl-note{font-size:.85rem;color:var(--brown-soft);margin:10px 2px 30px}
-.price h3{font-family:'Noto Serif KR',serif;font-size:1.15rem;font-weight:600;margin:34px 0 12px}
+/* 오시는길 */
+.access-wrap{max-width:780px;margin:30px auto 10px;padding:0 18px}
+.access-wrap h2{font-size:1.3rem;font-weight:600;margin-bottom:16px}
+.access-wrap p{margin-bottom:12px;font-size:.97rem}
+.access-wrap .btns{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.btn{display:inline-block;background:var(--brown);color:var(--cream);padding:11px 22px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.92rem;border:1px solid var(--brown)}
+.btn:hover{background:#5d4c37}
+.btn.ghost{background:transparent;color:var(--brown)}
+.btn.ghost:hover{background:var(--sand)}
+.btn.kakao{background:#FAE100;border-color:#FAE100;color:#3C1E1E}
+.btn.kakao:hover{background:#F2D900}
+.yt-thumb{display:block;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin-top:6px}
 
-/* faq */
-.faq{padding:64px 0;border-top:1px solid var(--line);background:var(--sand)}
-details{
-  background:var(--white);border:1px solid var(--line);border-radius:12px;
-  margin-bottom:10px;overflow:hidden;
-}
-summary{
-  cursor:pointer;padding:16px 20px;font-weight:600;font-size:.98rem;
-  list-style:none;position:relative;padding-right:44px;
-}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.2rem;color:var(--lake)}
-details[open] summary::after{content:"−"}
-details p{padding:0 20px 18px;color:var(--brown-soft);font-size:.94rem}
-
-
-/* reviews marquee */
-.reviews{padding:64px 0 70px;border-top:1px solid var(--line);overflow:hidden}
-.reviews .sec-head{max-width:1060px;margin:0 auto 30px;padding:0 22px}
+/* ── 공통 하단: 리뷰 마퀴 ── */
+.reviews{padding:60px 0 66px;border-top:1px solid var(--line);overflow:hidden;margin-top:44px}
+.reviews .sec-head{max-width:1060px;margin:0 auto 28px;padding:0 22px}
+.eyebrow{font-size:.78rem;letter-spacing:.26em;color:var(--lake);font-weight:600;margin-bottom:10px}
+.sec-head h2{font-family:'Noto Serif KR',serif;font-size:clamp(1.3rem,3vw,1.7rem);font-weight:600;margin-bottom:10px}
+.sec-head>p{color:var(--brown-soft);font-size:.95rem}
 .marquee{position:relative;width:100%;overflow:hidden;
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
   mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
-.track{display:flex;gap:16px;width:max-content;padding:4px 0;
-  animation:marquee 150s linear infinite}
+.track{display:flex;gap:16px;width:max-content;padding:4px 0;animation:marquee 150s linear infinite}
 .marquee:hover .track{animation-play-state:paused}
-.rcard{width:330px;flex:0 0 auto;background:var(--white);border:1px solid var(--line);
-  border-radius:16px;padding:22px 24px;display:flex;flex-direction:column;gap:12px}
+.rcard{width:330px;flex:0 0 auto;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:22px 24px;display:flex;flex-direction:column;gap:12px}
 .rcard .stars{color:#D9A94E;font-size:.85rem;letter-spacing:.12em}
 .rcard p{font-size:.9rem;color:var(--brown);line-height:1.6;flex:1}
 .rcard .who{font-size:.8rem;color:var(--brown-soft)}
 .rcard .who b{color:var(--lake);font-weight:600}
 @keyframes marquee{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){
-  .track{animation:none}
-  .marquee{overflow-x:auto;mask-image:none;-webkit-mask-image:none}
-}
+@media (prefers-reduced-motion:reduce){.track{animation:none}.marquee{overflow-x:auto;mask-image:none;-webkit-mask-image:none}}
 @media (max-width:600px){.rcard{width:280px}}
 
-/* access */
-.access{padding:64px 0;border-top:1px solid var(--line)}
-.access-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
-.access-info p{margin-bottom:12px;font-size:.97rem}
-.access-info b{font-weight:700}
-.access-info .muted{color:var(--brown-soft);font-size:.9rem}
-.access-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-.yt-thumb{overflow:hidden;border-radius:14px;border:1px solid var(--line);display:block}
-.yt-thumb img{width:100%;display:block}
+/* ── 공통 하단: 요금 · FAQ ── */
+.shared{max-width:1060px;margin:0 auto;padding:0 22px}
+.price{padding:56px 0 8px;border-top:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.95rem}
+th,td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--sand);font-weight:700;font-size:.9rem}
+tr:last-child td{border-bottom:none}
+td.num{text-align:right;font-weight:700;white-space:nowrap}
+.tbl-note{font-size:.85rem;color:var(--brown-soft);margin:10px 2px 28px}
+.price h3{font-family:'Noto Serif KR',serif;font-size:1.12rem;font-weight:600;margin:30px 0 12px}
+.faq{padding:56px 0 30px}
+details{background:var(--white);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+summary{cursor:pointer;padding:15px 20px;font-weight:600;font-size:.96rem;list-style:none;position:relative;padding-right:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.2rem;color:var(--lake)}
+details[open] summary::after{content:"−"}
+details p{padding:0 20px 16px;color:var(--brown-soft);font-size:.93rem}
 
-/* footer */
-footer{border-top:1px solid var(--line);background:var(--brown);color:#D8CDB9;padding:44px 0 36px;font-size:.88rem}
-footer .cols{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
-footer .brand{font-family:'Noto Serif KR',serif;font-size:1.1rem;color:var(--ivory);font-weight:600;margin-bottom:8px}
+/* ── 플로팅 예약 버튼 ── */
+.float-cta{position:fixed;right:16px;bottom:18px;display:flex;flex-direction:column;gap:10px;z-index:80}
+.float-cta a{box-shadow:0 8px 20px rgba(60,45,25,.22)}
+
+footer{border-top:1px solid var(--line);background:var(--brown);color:#D8CDB9;padding:40px 0 34px;font-size:.88rem;margin-top:50px}
+footer .cols{max-width:1060px;margin:0 auto;padding:0 22px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer .brand{font-family:'Noto Serif KR',serif;font-size:1.1rem;color:var(--cream);font-weight:600;margin-bottom:8px}
 footer a{color:#EFE7D4;text-decoration:none}
 footer a:hover{text-decoration:underline}
 footer .sns{display:flex;gap:16px;margin-top:10px}
-footer .biz{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14);color:#B7AA92;font-size:.8rem;line-height:1.8}
-
-/* reveal */
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
-.reveal.visible{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-
-@media (max-width:860px){
-  nav{
-    display:none;position:absolute;top:66px;left:0;right:0;
-    background:var(--ivory);flex-direction:column;padding:18px 22px;gap:16px;
-    border-bottom:1px solid var(--line);
-  }
-  nav.open{display:flex}
-  #menuToggle{display:block}
-  .access-grid{grid-template-columns:1fr}
-  .arch-hero{border-radius:200px 200px 14px 14px}
-}
+footer .biz{max-width:1060px;margin:22px auto 0;padding:18px 22px 0;border-top:1px solid rgba(255,255,255,.14);color:#B7AA92;font-size:.8rem;line-height:1.8}
 </style>
 </head>
 <body>
 
-<header>
-  <div class="wrap hd">
-    <a class="logo" href="#top">스튜디오 온더탑<small>STUDIO ONTHETOP · GWANGGYO</small></a>
-    <nav id="nav">
-      <a href="#dol">돌·백일</a>
-      <a href="#bridal">브라이덜샤워</a>
-      <a href="#propose">프로포즈</a>
-      <a href="#hwangap">환갑·칠팔순</a>
-      <a href="#wedding">스몰웨딩</a>
-      <a href="#meeting">회의실</a>
-      <a href="#price">요금안내</a>
-      <a href="#access">오시는길</a>
-    </nav>
-    <div style="display:flex;gap:10px;align-items:center">
-      <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약</a>
-      <button id="menuToggle" aria-label="메뉴 열기">☰</button>
-    </div>
+<header class="site-head">
+  <div class="langs">
+    <a class="lang-pill" href="cn.html">🇨🇳 中文</a>
+    <a class="lang-pill" href="en.html">🇺🇸 English</a>
   </div>
+  <h1 class="site-logo"><a href="#dol">온더탑스튜디오</a></h1>
+  <p class="site-sub">GWANGGYO PARTY ROOM · SELF STUDIO</p>
 </header>
 
-<main id="top">
-
-<!-- HERO -->
-<section class="hero wrap">
-  <p class="eyebrow">SUWON · GWANGGYO LAKE PARK</p>
-  <h1 class="serif">광교호수공원이 내려다보이는<br>고층 파티룸 · 셀프사진관</h1>
-  <p>수원 광교의 가장 높은 곳에서 돌잔치, 백일상, 브라이덜샤워, 프로포즈, 환갑연까지.
-  스튜디오 온더탑은 소중한 날의 파티와 기록을 한 공간에서 완성합니다.</p>
-  <div class="cta">
-    <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약하기</a>
-    <a class="btn kakao" href="https://open.kakao.com/o/sBq7eswe" target="_blank" rel="noopener">카카오톡 문의</a>
-  </div>
-  <p class="tel-line">전화 상담 <a href="tel:010-5080-8209">010-5080-8209</a> · 연중무휴 24시간</p>
-  <div class="arch-hero reveal">
-    <img src="https://cdn.imweb.me/thumbnail/20250122/52b38e74fc341.jpg" alt="광교호수공원 뷰 아치창 앞 브라이덜샤워 파티 셋팅 — 스튜디오 온더탑 광교 파티룸" loading="eager">
-  </div>
-</section>
-
-<!-- FACTS -->
-<section class="facts wrap reveal">
+<nav class="tabs" aria-label="메뉴">
   <ul>
-    <li><b>위치</b><span>광교 SK뷰레이크타워 오피스 A동 35층 · 광교중앙역 도보권</span></li>
-    <li><b>규모</b><span>20평 단독 사용 · 최대 20인</span></li>
-    <li><b>포토존 3종</b><span>파티존 · 꽃아치존 · 퍼스널 컬러존</span></li>
-    <li><b>기본 시설</b><span>셀프사진 촬영·인화 · 노래방 기기 · 전용 탈의실</span></li>
-    <li><b>대관 요금</b><span>평일 4시간 120,000원부터</span></li>
-    <li><b>운영</b><span>연중무휴 24시간</span></li>
+    <li><a href="#dol" data-tab="dol">돌&백일</a></li>
+    <li><a href="#bridal" data-tab="bridal">브라이덜샤워</a></li>
+    <li><a href="#propose" data-tab="propose">프로포즈</a></li>
+    <li><a href="#hwangap" data-tab="hwangap">환갑&칠팔순</a></li>
+    <li><a href="#meeting" data-tab="meeting">회의실</a></li>
+    <li><a href="#wedding" data-tab="wedding">스몰웨딩</a></li>
+    <li><a href="#access" data-tab="access">오시는길</a></li>
   </ul>
-</section>
+</nav>
 
-<!-- 돌 & 백일 -->
-<section class="svc" id="dol">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">DOL &amp; 100 DAYS</p>
-      <h2 class="serif">광교 돌잔치 · 백일상</h2>
-      <p>호수가 내려다보이는 밝은 공간에서 가족끼리 오붓하게 치르는 소규모 돌잔치와 백일상.
-      돌잡이 용품부터 떡·꽃·케이크 셋팅, 아이 드레스까지 기본으로 준비해 드리므로
-      부모님은 아이와 함께 그날을 즐기기만 하시면 됩니다. 셀프사진 촬영과 인화가 가능하고,
-      스냅 촬영을 신청하면 촬영에 맞춰 내부 셋팅이 추가되어 다채로운 컨셉의 사진을 남길 수 있습니다.</p>
-    </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/1d524c3c76ac3.jpg" alt="광교 돌잔치 상차림과 호수뷰 파티존 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/19e52c51900a0.jpg" alt="광교 백일상 셋팅 — 스튜디오 온더탑 파티룸" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/0993e9f40cb9e.jpg" alt="돌잡이 용품과 케이크 기본 셋팅 — 광교 소규모 돌잔치" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/3022f45eb7f1b.jpg" alt="가족과 함께하는 광교 돌잔치 기념 촬영" loading="lazy"></figure>
-    </div>
-    <div class="include reveal">
-      <h3>돌·백일 기본 제공</h3>
-      <ul>
-        <li>돌잡이 용품, 떡·꽃·케이크 기본 셋팅</li>
-        <li>아이 드레스 기본 제공</li>
-        <li>전광판 셋팅 또는 노래방 기기 셋팅 중 선택</li>
-        <li>셀프사진 촬영 및 인화 가능</li>
-        <li>스냅 촬영 신청 시 촬영용 내부 셋팅 추가</li>
-      </ul>
-    </div>
-  </div>
-</section>
+<main>
 
-<!-- 브라이덜샤워 -->
-<section class="svc alt" id="bridal">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">BRIDAL SHOWER</p>
-      <h2 class="serif">광교 브라이덜샤워</h2>
-      <p>수원 광교에서 가장 높은 곳에서의 브라이덜샤워. 노을이 지는 광교호수공원을 배경으로 한
-      아치창 포토존은 스튜디오 온더탑의 시그니처입니다. 꽃 장식이 무료로 제공되고,
-      파티 드레스를 무료로 대여할 수 있어 준비물 없이 와서 촬영과 파티를 함께 즐길 수 있습니다.</p>
+  <section class="page" id="dol">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/1d524c3c76ac3.jpg" alt="광교 돌잔치 백일상 파티존 셋팅 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/19e52c51900a0.jpg" alt="광교 백일상 기본 제공 셋팅 안내 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/9f1edacfc78bc.jpg" alt="돌잡이 용품과 케이크 셋팅 — 광교 소규모 돌잔치" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/0993e9f40cb9e.jpg" alt="가족과 함께하는 광교 돌잔치" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/3022f45eb7f1b.jpg" alt="광교 돌잔치 기념 가족 촬영" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/16ede9551b218.jpg" alt="호수뷰 앞 백일 파티 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/32286aa3fb182.jpg" alt="스튜디오 온더탑 돌 백일 셋팅 안내" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/14a3926352255.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
     </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20250122/63d31f3a134a6.jpg" alt="광교 브라이덜샤워 아치창 포토존과 호수 노을 뷰 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/b08963f96620a.jpg" alt="브라이덜샤워 파티 드레스와 꽃 장식 — 광교 파티룸 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/43f0b5ec340b4.jpg" alt="친구들과 함께하는 광교 브라이덜샤워 파티" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/a42fff1adebdc.jpg" alt="브라이덜샤워 케이크와 풍선 셋팅 — 스튜디오 온더탑" loading="lazy"></figure>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 돌잔치 · 백일상</h2>
+      <p>호수가 내려다보이는 밝은 공간에서 가족끼리 오붓하게 치르는 소규모 돌잔치와 백일상. 돌잡이 용품부터 떡·꽃·케이크 셋팅, 아이 드레스까지 기본으로 준비해 드리므로 부모님은 아이와 함께 그날을 즐기기만 하시면 됩니다. 셀프사진 촬영과 인화가 가능하고, 스냅 촬영을 신청하면 촬영에 맞춰 내부 셋팅이 추가되어 다채로운 컨셉의 사진을 남길 수 있습니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>돌잡이 용품, 떡·꽃·케이크 기본 셋팅</li>
+          <li>아이 드레스 기본 제공</li>
+          <li>전광판 셋팅 또는 노래방 기기 셋팅 중 선택</li>
+          <li>셀프사진 촬영 및 인화 가능</li>
+          <li>스냅 촬영 신청 시 촬영용 내부 셋팅 추가</li>
+        </ul>
+      </div>
     </div>
-    <div class="include reveal">
-      <h3>브라이덜샤워 기본 제공</h3>
-      <ul>
-        <li>꽃 장식 무료 제공</li>
-        <li>파티 드레스 무료 대여 (보유 드레스 다수)</li>
-        <li>셀프사진 촬영 및 인화 가능</li>
-        <li>노래방 기기, 보드게임 등 파티 용품 기본 제공</li>
-      </ul>
+  </section>
+  <section class="page" id="bridal">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260213/2c057175b1e73.png" alt="수원 광교 가장 높은 곳에서의 브라이덜샤워 — 스튜디오 온더탑 파티룸" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/b08963f96620a.jpg" alt="광교 브라이덜샤워 파티 드레스와 꽃 장식" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/43f0b5ec340b4.jpg" alt="친구들과 함께하는 광교 브라이덜샤워" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/a42fff1adebdc.jpg" alt="브라이덜샤워 케이크와 풍선 셋팅" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/18cc7b1d135b2.jpg" alt="아치창 포토존 브라이덜샤워 촬영" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/287bd76b20bac.jpg" alt="광교호수공원 뷰 브라이덜샤워 파티" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/27f1afba23f70.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
     </div>
-  </div>
-</section>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 브라이덜샤워</h2>
+      <p>수원 광교에서 가장 높은 곳에서의 브라이덜샤워. 노을이 지는 광교호수공원을 배경으로 한 아치창 포토존은 스튜디오 온더탑의 시그니처입니다. 꽃 장식이 무료로 제공되고, 파티 드레스를 무료로 대여할 수 있어 준비물 없이 와서 촬영과 파티를 함께 즐길 수 있습니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>꽃 장식 무료 제공</li>
+          <li>파티 드레스 무료 대여 (보유 드레스 다수)</li>
+          <li>셀프사진 촬영 및 인화 가능</li>
+          <li>노래방 기기, 보드게임 등 파티 용품 기본 제공</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="page" id="propose">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/80aa2f79bdafb.jpg" alt="광교 프로포즈 이벤트 촛불 셋팅 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/e0a4f4036d7df.jpg" alt="야경 앞 프로포즈 장면 — 광교 프로포즈 장소" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/8780678641ad6.jpg" alt="프로포즈 성공 기념 커플 촬영" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/018cc61822bba.jpg" alt="프로포즈 꽃다발과 조화 장식" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/0e4c704b84bec.jpg" alt="LED 초와 영상 셋팅 프로포즈 무대" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/6ccc9fdcd65f1.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20250123/463d4567ccab7.png" alt="프로포즈 옵션 요금표 — 영상제작·무인촬영·사진인화 각 12만원" loading="lazy">
+    </div>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 프로포즈</h2>
+      <p>광교의 야경 위에서 준비하는 프로포즈. LED 초 25개와 대형 조화 장식, 고객 맞춤형 영상 또는 이미지 셋팅이 기본으로 포함되어 있어 도착만 하면 완성된 프로포즈 무대가 기다리고 있습니다. 두 대의 카메라로 청혼 장면을 무인 촬영해 원본과 편집본을 전달해 드리는 옵션도 준비되어 있습니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>LED 초 25개 셋팅</li>
+          <li>고객 맞춤형 영상 혹은 이미지 셋팅</li>
+          <li>대형 조화 장식 셋팅</li>
+          <li>셀프사진 촬영 가능</li>
+          <li>영상 제작 · 무인 촬영 편집 · 사진 25장 인화 옵션 (각 120,000원)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="page" id="hwangap">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/36a12008f41bf.jpg" alt="광교 환갑잔치 가족 단체 사진 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/124299b786be1.jpg" alt="환갑연 테이블 셋팅과 맞춤 현수막" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/18a497c4c239f.jpg" alt="칠순 잔치 풍선 장식" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/3d33fa6253003.jpg" alt="삼대가 함께하는 가족 기념 촬영" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/1856b5d17e94f.jpg" alt="팔순 가족 모임 상차림" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/ce7e6a2d0d781.jpg" alt="가족 모임 기념 촬영 — 광교 가족모임 장소" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/4dce46bb30d02.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
+    </div>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 환갑 · 칠순 · 팔순</h2>
+      <p>부모님의 환갑연과 칠순·팔순 잔치를 가족끼리 프라이빗하게. 테이블 셋팅이 기본으로 준비되고 맞춤 현수막 부착이 무료입니다. 영유아 동반 가족을 위한 하이체어와 범보의자가 완비되어 있어 삼대가 함께 모이기 좋은 공간입니다. 케이터링 뷔페 메뉴로 식사까지 해결할 수 있습니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>기념 테이블 셋팅 기본 제공</li>
+          <li>맞춤 현수막 무료 부착</li>
+          <li>풍선 장식 추가 가능</li>
+          <li>영유아 하이체어 · 범보의자 완비</li>
+          <li>케이터링 뷔페 메뉴 별도 신청 가능</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="page" id="meeting">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/12ca242049137.jpg" alt="광교 회의실 대관 세미나 진행 모습 — 스튜디오 온더탑" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/3596ce6623811.jpg" alt="30인 규모 광교 강의실 워크숍" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/07edf48193559.jpg" alt="회의실 테이블 맞춤 셋팅" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/21201fb12d5b6.jpg" alt="전자칠판을 활용한 강의 — 광교 세미나실" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/ab47f14e5448b.jpg" alt="광교 회의실 행사 진행" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20250828/d8009a4cb9671.png" alt="올데이 플레이팅 케이터링 뷔페 메뉴 안내" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20250227/1ed87fe98b74d.jpg" alt="케이터링 신청 시 제공 품목 안내" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/795fc81dda26a.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
+    </div>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 회의실 · 강의실</h2>
+      <p>30인 규모의 밝은 회의·강의 공간. 초고속 와이파이와 고사양 컴퓨터, 연동 전자칠판, 마이크가 준비되어 있어 세미나, 워크숍, 소규모 강의에 적합합니다. 테이블은 행사 성격에 맞춰 맞춤 셋팅해 드리며, 케이터링 도시락으로 식사까지 해결할 수 있습니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>초고속 와이파이</li>
+          <li>고사양 컴퓨터 · 연동 전자칠판</li>
+          <li>마이크</li>
+          <li>행사 맞춤형 테이블 셋팅</li>
+          <li>케이터링 도시락 별도 신청 가능</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="page" id="wedding">
+    <div class="stack">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/0e9fc1c6f929f.jpg" alt="광교 스몰웨딩 예식 공간 — 스튜디오 온더탑 35층" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/040447f023186.jpg" alt="스몰웨딩 버진로드와 꽃 장식" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/0a3a56e8f3f72.jpg" alt="소규모 결혼식 하객석 셋팅" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/1e4dcb23b6187.jpg" alt="광교 작은 결혼식 신랑신부 촬영" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/d6e83df6cace4.jpg" alt="스몰웨딩 예식 진행 모습" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260221/b1fcec1a9f136.jpg" alt="예식 후 기념 촬영 — 광교 스몰웨딩" loading="lazy">
+      <img src="https://cdn.imweb.me/thumbnail/20260209/192655d7446da.png" alt="스튜디오 온더탑 대관 요금표 — 평일 4시간 12만원부터" loading="lazy">
+    </div>
+    <div class="pagetext">
+      <h2 class="serif">광교 · 스몰웨딩</h2>
+      <p>가까운 가족과 친구만 모시고 올리는 작은 결혼식. 35층에서 예식을 진행한 뒤 같은 건물 40층 레이크뷰 레스토랑 단독룸으로 이동해 식사까지 이어지는 동선으로, 번거로운 이동 없이 예식과 피로연을 한 건물에서 마칠 수 있습니다. 웨딩 드레스는 보유 드레스 중에서 무료로 제공됩니다.</p>
+      <div class="include">
+        <h3>기본 제공</h3>
+        <ul>
+          <li>35층 예식 후 40층 레이크뷰 레스토랑 단독룸 식사</li>
+          <li>웨딩 드레스 무료 제공 (보유 드레스)</li>
+          <li>사진 액자·벽면 부착, 맞춤 풍선, 웨딩 스냅 등 옵션 추가 가능</li>
+          <li>메이크업 — 같은 건물 내 메이크업샵 제휴</li>
+          <li>사회 및 축가 섭외 추가 가능</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<!-- 프로포즈 -->
-<section class="svc" id="propose">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">PROPOSE</p>
-      <h2 class="serif">광교 프로포즈 이벤트</h2>
-      <p>광교의 야경 위에서 준비하는 프로포즈. LED 초 25개와 대형 조화 장식,
-      고객 맞춤형 영상 또는 이미지 셋팅이 기본으로 포함되어 있어
-      도착만 하면 완성된 프로포즈 무대가 기다리고 있습니다.
-      두 대의 카메라로 청혼 장면을 무인 촬영해 원본과 편집본을 전달해 드리는 옵션도 준비되어 있습니다.</p>
+  <section class="page" id="access">
+    <div class="access-wrap">
+      <h2 class="serif">오시는 길</h2>
+      <p><b>스튜디오 온더탑</b><br>경기도 수원시 영통구 법조로 25, SK뷰레이크타워 오피스 A동 3516호 (35층)</p>
+      <p><b>지하철</b> — 신분당선 광교중앙역 도보권</p>
+      <p><b>차량</b> — 내비게이션에 "SK뷰레이크타워"를 검색해 오시면 됩니다. 건물 주차 안내는 예약 시 함께 드립니다.</p>
+      <p><b>운영</b> — 연중무휴 24시간 · 문의 카카오톡 오픈채팅 또는 전화 <a href="tel:010-5080-8209" style="color:var(--lake)">010-5080-8209</a></p>
+      <div class="btns">
+        <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약</a>
+        <a class="btn kakao" href="https://open.kakao.com/o/sBq7eswe" target="_blank" rel="noopener">카카오톡 문의</a>
+        <a class="btn ghost" href="https://www.instagram.com/onthetop_official_kr/" target="_blank" rel="noopener">인스타그램</a>
+        <a class="btn ghost" href="https://blog.naver.com/onthetop88" target="_blank" rel="noopener">네이버 블로그</a>
+      </div>
+      <a class="yt-thumb" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener" aria-label="오시는 길 차량 안내">
+        <img src="https://cdn.imweb.me/upload/S202501222d792e3104ae6/369d9aa9c123b.jpg" alt="스튜디오 온더탑 오시는 길 차량 안내" loading="lazy">
+      </a>
     </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/80aa2f79bdafb.jpg" alt="광교 프로포즈 이벤트 촛불 셋팅 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/e0a4f4036d7df.jpg" alt="야경 앞 프로포즈 장면 — 광교 프로포즈 장소 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/018cc61822bba.jpg" alt="프로포즈 꽃다발과 조화 장식 셋팅" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/8780678641ad6.jpg" alt="프로포즈 성공 기념 커플 촬영 — 스튜디오 온더탑" loading="lazy"></figure>
-    </div>
-    <div class="include reveal">
-      <h3>프로포즈 기본 셋팅</h3>
-      <ul>
-        <li>LED 초 25개 셋팅</li>
-        <li>고객 맞춤형 영상 혹은 이미지 셋팅</li>
-        <li>대형 조화 장식 셋팅</li>
-        <li>셀프사진 촬영 가능</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- 환갑 -->
-<section class="svc alt" id="hwangap">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">FAMILY CELEBRATION</p>
-      <h2 class="serif">광교 환갑 · 칠순 · 팔순 가족 모임</h2>
-      <p>부모님의 환갑연과 칠순·팔순 잔치를 가족끼리 프라이빗하게. 테이블 셋팅이 기본으로 준비되고
-      맞춤 현수막 부착이 무료입니다. 영유아 동반 가족을 위한 하이체어와 범보의자가 완비되어 있어
-      삼대가 함께 모이기 좋은 공간입니다. 케이터링 뷔페 메뉴로 식사까지 해결할 수 있습니다.</p>
+  <!-- 방문 후기 (공통) -->
+  <section class="reviews" id="reviews">
+    <div class="sec-head">
+      <p class="eyebrow">REVIEWS</p>
+      <h2 class="serif">다녀가신 분들의 이야기</h2>
+      <p>네이버 예약으로 방문하신 분들이 직접 남겨주신 후기입니다.</p>
     </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/36a12008f41bf.jpg" alt="광교 환갑잔치 가족 단체 사진 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/124299b786be1.jpg" alt="환갑연 테이블 셋팅과 현수막 — 광교 가족모임 장소" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/18a497c4c239f.jpg" alt="칠순 잔치 풍선 장식 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/3d33fa6253003.jpg" alt="삼대가 함께하는 광교 가족 기념 촬영" loading="lazy"></figure>
-    </div>
-    <div class="include reveal">
-      <h3>환갑·칠팔순 기본 제공</h3>
-      <ul>
-        <li>기념 테이블 셋팅 기본 제공</li>
-        <li>맞춤 현수막 무료 부착</li>
-        <li>풍선 장식 추가 가능</li>
-        <li>영유아 하이체어 · 범보의자 완비</li>
-        <li>케이터링 뷔페 메뉴 별도 신청 가능</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-
-<!-- 방문 후기 -->
-<section class="reviews" id="reviews">
-  <div class="sec-head reveal">
-    <p class="eyebrow">REVIEWS</p>
-    <h2 class="serif">다녀가신 분들의 이야기</h2>
-    <p>네이버 예약으로 방문하신 분들이 직접 남겨주신 후기입니다.</p>
-  </div>
-  <div class="marquee" aria-label="방문자 후기 목록">
-    <div class="track" id="reviewTrack">
+    <div class="marquee" aria-label="방문자 후기 목록">
+      <div class="track" id="reviewTrack">
       <div class="rcard"><div class="stars">★★★★★</div><p>아기 돌사진 찍으려고 갔는데 설명을 친절하게 잘 해주셔서 예쁜 사진을 찍을 수 있었어요. 가족 단위 소규모 돌잔치라면 추천해요!</p><div class="who"><b>돌잔치</b> · ii*** 님 · 네이버 방문자 리뷰</div></div>
       <div class="rcard"><div class="stars">★★★★★</div><p>광교가 한눈에 보이는 통창 뷰, 백일상 기본 세팅, 정말 친절한 사장님 덕분에 우리 아기의 백일이 특별하고 행복한 추억으로 남았습니다.</p><div class="who"><b>백일잔치</b> · qdd6*** 님 · 네이버 방문자 리뷰</div></div>
       <div class="rcard"><div class="stars">★★★★★</div><p>온더탑 스몰웨딩 패키지로 완전 성공적인 파티가 됐어요. 뷰가 진짜 미쳤고, 기본 셋팅이 완벽해서 추가로 준비할 게 없었어요.</p><div class="who"><b>스몰웨딩</b> · 때딩 님 · 네이버 방문자 리뷰</div></div>
@@ -493,233 +450,106 @@ footer .biz{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,2
       <div class="rcard"><div class="stars">★★★★★</div><p>두 달 넘게 고민하다 최종 선택한 장소인데 가족들 모두 엄지 척! 한 공간에서 다양한 사진 연출이 가능합니다.</p><div class="who"><b>가족행사</b> · coz* 님 · 네이버 방문자 리뷰</div></div>
       <div class="rcard"><div class="stars">★★★★★</div><p>다 같이 사진도 예쁘게 찍고 게임도 하며 하루 종일 기분 좋은 날이었어요. 다음에도 또 하게 된다면 여기로 할 거예요.</p><div class="who"><b>단체파티</b> · 해바라기** 님 · 네이버 방문자 리뷰</div></div>
       <div class="rcard"><div class="stars">★★★★★</div><p>드레스 입고 셀프 촬영에서 인화까지, 포토존이 많아서 600장은 찍은 듯해요. 부모님 생신이나 돌잔치로 재방문할 예정입니다!</p><div class="who"><b>셀프촬영</b> · ls* 님 · 네이버 방문자 리뷰</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- 스몰웨딩 -->
-<section class="svc" id="wedding">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">SMALL WEDDING</p>
-      <h2 class="serif">광교 스몰웨딩</h2>
-      <p>가까운 가족과 친구만 모시고 올리는 작은 결혼식. 35층에서 예식을 진행한 뒤
-      같은 건물 40층 레이크뷰 레스토랑 단독룸으로 이동해 식사까지 이어지는 동선으로,
-      번거로운 이동 없이 예식과 피로연을 한 건물에서 마칠 수 있습니다.
-      웨딩 드레스는 보유 드레스 중에서 무료로 제공됩니다.</p>
-    </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/0e9fc1c6f929f.jpg" alt="광교 스몰웨딩 예식 공간 — 스튜디오 온더탑 35층" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/040447f023186.jpg" alt="스몰웨딩 버진로드와 꽃 장식 — 광교 작은 결혼식" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/0a3a56e8f3f72.jpg" alt="소규모 결혼식 하객석 셋팅 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/1e4dcb23b6187.jpg" alt="광교 스몰웨딩 신랑신부 촬영" loading="lazy"></figure>
-    </div>
-    <div class="include reveal">
-      <h3>스몰웨딩 안내</h3>
-      <ul>
-        <li>35층 예식 후 40층 레이크뷰 레스토랑 단독룸 식사</li>
-        <li>웨딩 드레스 무료 제공 (보유 드레스)</li>
-        <li>사진 액자·벽면 부착, 맞춤 풍선, 웨딩 스냅 등 옵션 추가 가능</li>
-        <li>메이크업 — 같은 건물 내 메이크업샵 제휴</li>
-        <li>사회 및 축가 섭외 추가 가능</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- 회의실 -->
-<section class="svc alt" id="meeting">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">MEETING &amp; CLASS</p>
-      <h2 class="serif">광교 회의실 · 강의실 대관</h2>
-      <p>30인 규모의 밝은 회의·강의 공간. 초고속 와이파이와 고사양 컴퓨터,
-      연동 전자칠판, 마이크가 준비되어 있어 세미나, 워크숍, 소규모 강의에 적합합니다.
-      테이블은 행사 성격에 맞춰 맞춤 셋팅해 드리며, 케이터링 도시락으로 식사까지 해결할 수 있습니다.</p>
-    </div>
-    <div class="svc-grid reveal">
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/12ca242049137.jpg" alt="광교 회의실 대관 — 세미나 진행 모습, 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/3596ce6623811.jpg" alt="광교 강의실 워크숍 대관 — 스튜디오 온더탑" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/07edf48193559.jpg" alt="30인 규모 회의실 테이블 셋팅 — 광교 세미나실" loading="lazy"></figure>
-      <figure><img src="https://cdn.imweb.me/thumbnail/20260221/21201fb12d5b6.jpg" alt="전자칠판을 활용한 강의 — 광교 회의실 온더탑" loading="lazy"></figure>
-    </div>
-    <div class="include reveal">
-      <h3>회의실 기본 시설</h3>
-      <ul>
-        <li>초고속 와이파이</li>
-        <li>고사양 컴퓨터 · 연동 전자칠판</li>
-        <li>마이크</li>
-        <li>행사 맞춤형 테이블 셋팅</li>
-        <li>케이터링 도시락 별도 신청 가능</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- 요금 -->
-<section class="price wrap" id="price">
-  <div class="sec-head reveal">
-    <p class="eyebrow">PRICE</p>
-    <h2 class="serif">대관 요금 안내</h2>
-    <p>파티 대관은 4시간·6시간 패키지로 운영하며, 기본 4인 요금입니다.</p>
-  </div>
-
-  <div class="reveal">
-  <table>
-    <thead><tr><th>구분</th><th>이용 안내</th><th style="text-align:right">요금</th></tr></thead>
-    <tbody>
-      <tr><td><b>평일 4시간 패키지</b></td><td>월 · 화 · 수 · 목</td><td class="num">120,000원</td></tr>
-      <tr><td><b>평일 6시간 패키지</b></td><td>월 · 화 · 수 · 목</td><td class="num">180,000원</td></tr>
-      <tr><td><b>금요일 6시간 패키지</b></td><td>금요일</td><td class="num">200,000원</td></tr>
-      <tr><td><b>주말 패키지</b></td><td>토 · 일 · 공휴일<br>1부 10:00–14:30 · 2부 16:00–23:00 · 3부 20:00–다음날 06:00</td><td class="num">240,000원</td></tr>
-    </tbody>
-  </table>
-  <p class="tbl-note">기본 4인 기준 · 5인 이상 시 1인당 10,000원 추가 · 연중무휴 24시간 · 예약 후 날짜 변경 불가(취소 후 재예약)</p>
-
-  <h3 class="serif">부가 서비스</h3>
-  <table>
-    <tbody>
-      <tr><td><b>전문가 스냅 촬영</b></td><td>전문 사진작가 스냅 촬영</td><td class="num">400,000원</td></tr>
-      <tr><td><b>맞춤 풍선 셋팅</b></td><td>파티 컨셉에 맞춘 풍선 장식</td><td class="num">120,000원</td></tr>
-      <tr><td><b>인원 추가</b></td><td>5인 이상 시 1인 기준</td><td class="num">10,000원</td></tr>
-      <tr><td><b>케이터링 · 아이 드레스 · 메이크업</b></td><td>별도 문의</td><td class="num">문의</td></tr>
-    </tbody>
-  </table>
-
-  <h3 class="serif">프로포즈 옵션</h3>
-  <table>
-    <tbody>
-      <tr><td><b>프로포즈 영상 제작</b></td><td>사진을 보내주시면 프로포즈 영상으로 제작</td><td class="num">120,000원</td></tr>
-      <tr><td><b>프로포즈 영상 무인 촬영 및 편집</b></td><td>카메라 2대로 청혼 장면 녹화 후 원본 + 편집본 전송</td><td class="num">120,000원</td></tr>
-      <tr><td><b>추억의 사진 인화 및 부착</b></td><td>추억의 사진 25장을 부착해 포토존 장식</td><td class="num">120,000원</td></tr>
-    </tbody>
-  </table>
-  <p class="tbl-note">예약은 네이버 예약과 카카오톡 문의로 받고 있습니다 · 연중무휴 24시간 운영</p>
-  <div class="access-links" style="margin-top:4px">
-    <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약하기</a>
-    <a class="btn kakao" href="https://open.kakao.com/o/sBq7eswe" target="_blank" rel="noopener">카카오톡 문의</a>
-  </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="faq" id="faq">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">FAQ</p>
-      <h2 class="serif">자주 묻는 질문</h2>
-    </div>
-    <div class="reveal">
-    <details>
-      <summary>광교에서 소규모 돌잔치나 백일상을 할 수 있는 곳인가요?</summary>
-      <p>네. 스튜디오 온더탑은 광교호수공원 인근 고층 파티룸으로, 가족 단위 소규모 돌잔치와 백일상 전문 공간입니다. 돌잡이 용품, 떡·꽃·케이크 기본 셋팅, 아이 드레스가 기본 제공되며 최대 20인까지 단독으로 사용합니다.</p>
-    </details>
-    <details>
-      <summary>브라이덜샤워는 몇 명까지 가능한가요?</summary>
-      <p>기본 4인 기준이며 최대 20인까지 이용할 수 있습니다. 5인 이상부터 1인당 10,000원이 추가됩니다. 꽃 장식과 파티 드레스 대여는 무료입니다.</p>
-    </details>
-    <details>
-      <summary>대관 요금은 얼마인가요?</summary>
-      <p>가장 저렴한 패키지는 평일 4시간 120,000원입니다. 6시간 패키지는 평일(월~목) 180,000원, 금요일 200,000원, 주말·공휴일 240,000원이며, 주말은 1부 10:00~14:30, 2부 16:00~23:00, 3부 20:00~다음날 06:00 중 선택합니다.</p>
-    </details>
-    <details>
-      <summary>프로포즈 이벤트 준비를 대신해 주나요?</summary>
-      <p>네. LED 초 25개, 대형 조화 장식, 맞춤 영상 또는 이미지 셋팅이 기본 포함되어 도착만 하시면 됩니다. 영상 제작, 무인 촬영·편집, 사진 25장 인화·부착 옵션을 각 120,000원에 추가할 수 있습니다.</p>
-    </details>
-    <details>
-      <summary>환갑잔치에 아기를 데려가도 되나요?</summary>
-      <p>네. 영유아 동반 가족을 위한 하이체어와 범보의자가 완비되어 있어 삼대 가족 모임에 좋습니다. 맞춤 현수막 부착도 무료입니다.</p>
-    </details>
-    <details>
-      <summary>식사나 케이터링은 어떻게 하나요?</summary>
-      <p>올데이 플레이팅 케이터링(뷔페형) 메뉴를 별도 문의로 신청할 수 있습니다. 스몰웨딩은 35층 예식 후 같은 건물 40층 레이크뷰 레스토랑 단독룸에서 식사가 가능합니다.</p>
-    </details>
-    <details>
-      <summary>휴무일이 있나요?</summary>
-      <p>휴무일 없이 연중무휴 24시간 운영합니다. 주말 3부 패키지(20:00~다음날 06:00)처럼 심야 시간 이용도 가능합니다.</p>
-    </details>
-    <details>
-      <summary>예약 변경이나 취소는 어떻게 하나요?</summary>
-      <p>예약 후 날짜 변경은 불가능하며, 변경이 필요한 경우 취소 후 재예약해 주셔야 합니다. 자세한 환불 규정은 예약 시 안내드립니다.</p>
-    </details>
-    </div>
-  </div>
-</section>
-
-<!-- 오시는길 -->
-<section class="access wrap" id="access">
-  <div class="sec-head reveal">
-    <p class="eyebrow">ACCESS</p>
-    <h2 class="serif">오시는 길</h2>
-  </div>
-  <div class="access-grid reveal">
-    <div class="access-info">
-      <p><b>스튜디오 온더탑</b><br>
-      경기도 수원시 영통구 법조로 25, SK뷰레이크타워 오피스 A동 3516호 (35층)</p>
-      <p><b>지하철</b> — 신분당선 광교중앙역 도보권</p>
-      <p><b>차량</b> — 내비게이션에 "SK뷰레이크타워"를 검색해 오시면 됩니다. 건물 주차 안내는 예약 시 함께 드립니다.</p>
-      <p><b>문의</b> — 카카오톡 오픈채팅 또는 전화 <a href="tel:010-5080-8209" style="color:var(--lake)">010-5080-8209</a></p>
-      <div class="access-links">
-        <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약</a>
-        <a class="btn kakao" href="https://open.kakao.com/o/sBq7eswe" target="_blank" rel="noopener">카카오톡 문의</a>
-        <a class="btn ghost" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 지도</a>
-        <a class="btn ghost" href="https://www.instagram.com/onthetop_official_kr/" target="_blank" rel="noopener">인스타그램</a>
-        <a class="btn ghost" href="https://blog.naver.com/onthetop88" target="_blank" rel="noopener">네이버 블로그</a>
       </div>
     </div>
-    <a class="yt-thumb" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener" aria-label="오시는 길 차량 안내">
-      <img src="https://cdn.imweb.me/upload/S202501222d792e3104ae6/369d9aa9c123b.jpg" alt="스튜디오 온더탑 오시는 길 차량 안내 영상 썸네일" loading="lazy">
-    </a>
-  </div>
-</section>
+  </section>
 
+  <!-- 요금 (공통) -->
+  <section class="price shared" id="price">
+    <p class="eyebrow">PRICE</p>
+    <h2 class="serif" style="font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:600;margin-bottom:8px">대관 요금 안내</h2>
+    <p style="color:var(--brown-soft);font-size:.95rem;margin-bottom:22px">파티 대관은 4시간·6시간 패키지로 운영하며, 기본 4인 요금입니다.</p>
+    <table>
+      <thead><tr><th>구분</th><th>이용 안내</th><th style="text-align:right">요금</th></tr></thead>
+      <tbody>
+        <tr><td><b>평일 4시간 패키지</b></td><td>월 · 화 · 수 · 목</td><td class="num">120,000원</td></tr>
+        <tr><td><b>평일 6시간 패키지</b></td><td>월 · 화 · 수 · 목</td><td class="num">180,000원</td></tr>
+        <tr><td><b>금요일 6시간 패키지</b></td><td>금요일</td><td class="num">200,000원</td></tr>
+        <tr><td><b>주말 패키지</b></td><td>토 · 일 · 공휴일<br>1부 10:00–14:30 · 2부 16:00–23:00 · 3부 20:00–다음날 06:00</td><td class="num">240,000원</td></tr>
+      </tbody>
+    </table>
+    <p class="tbl-note">기본 4인 기준 · 5인 이상 시 1인당 10,000원 추가 · 연중무휴 24시간 · 예약 후 날짜 변경 불가(취소 후 재예약)</p>
+    <h3>부가 서비스</h3>
+    <table>
+      <tbody>
+        <tr><td><b>전문가 스냅 촬영</b></td><td>전문 사진작가 스냅 촬영</td><td class="num">400,000원</td></tr>
+        <tr><td><b>맞춤 풍선 셋팅</b></td><td>파티 컨셉에 맞춘 풍선 장식</td><td class="num">120,000원</td></tr>
+        <tr><td><b>인원 추가</b></td><td>5인 이상 시 1인 기준</td><td class="num">10,000원</td></tr>
+        <tr><td><b>케이터링 · 아이 드레스 · 메이크업</b></td><td>별도 문의</td><td class="num">문의</td></tr>
+      </tbody>
+    </table>
+    <h3>프로포즈 옵션</h3>
+    <table>
+      <tbody>
+        <tr><td><b>프로포즈 영상 제작</b></td><td>사진을 보내주시면 프로포즈 영상으로 제작</td><td class="num">120,000원</td></tr>
+        <tr><td><b>프로포즈 영상 무인 촬영 및 편집</b></td><td>카메라 2대로 청혼 장면 녹화 후 원본 + 편집본 전송</td><td class="num">120,000원</td></tr>
+        <tr><td><b>추억의 사진 인화 및 부착</b></td><td>추억의 사진 25장을 부착해 포토존 장식</td><td class="num">120,000원</td></tr>
+      </tbody>
+    </table>
+    <p class="tbl-note">예약은 네이버 예약과 카카오톡 문의로 받고 있습니다 · 연중무휴 24시간 운영</p>
+  </section>
+
+  <!-- FAQ (공통) -->
+  <section class="faq shared" id="faq">
+    <p class="eyebrow">FAQ</p>
+    <h2 class="serif" style="font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:600;margin-bottom:20px">자주 묻는 질문</h2>
+    <details><summary>광교에서 소규모 돌잔치나 백일상을 할 수 있는 곳인가요?</summary><p>네. 스튜디오 온더탑은 광교호수공원 인근 고층 파티룸으로, 가족 단위 소규모 돌잔치와 백일상 전문 공간입니다. 돌잡이 용품, 떡·꽃·케이크 기본 셋팅, 아이 드레스가 기본 제공되며 최대 20인까지 단독으로 사용합니다.</p></details>
+    <details><summary>브라이덜샤워는 몇 명까지 가능한가요?</summary><p>기본 4인 기준이며 최대 20인까지 이용할 수 있습니다. 5인 이상부터 1인당 10,000원이 추가됩니다. 꽃 장식과 파티 드레스 대여는 무료입니다.</p></details>
+    <details><summary>대관 요금은 얼마인가요?</summary><p>가장 저렴한 패키지는 평일 4시간 120,000원입니다. 6시간 패키지는 평일(월~목) 180,000원, 금요일 200,000원, 주말·공휴일 240,000원이며, 주말은 1부 10:00~14:30, 2부 16:00~23:00, 3부 20:00~다음날 06:00 중 선택합니다.</p></details>
+    <details><summary>프로포즈 이벤트 준비를 대신해 주나요?</summary><p>네. LED 초 25개, 대형 조화 장식, 맞춤 영상 또는 이미지 셋팅이 기본 포함되어 도착만 하시면 됩니다. 영상 제작, 무인 촬영·편집, 사진 25장 인화·부착 옵션을 각 120,000원에 추가할 수 있습니다.</p></details>
+    <details><summary>환갑잔치에 아기를 데려가도 되나요?</summary><p>네. 영유아 동반 가족을 위한 하이체어와 범보의자가 완비되어 있어 삼대 가족 모임에 좋습니다. 맞춤 현수막 부착도 무료입니다.</p></details>
+    <details><summary>식사나 케이터링은 어떻게 하나요?</summary><p>올데이 플레이팅 케이터링(뷔페형) 메뉴를 별도 문의로 신청할 수 있습니다. 스몰웨딩은 35층 예식 후 같은 건물 40층 레이크뷰 레스토랑 단독룸에서 식사가 가능합니다.</p></details>
+    <details><summary>휴무일이 있나요?</summary><p>휴무일 없이 연중무휴 24시간 운영합니다. 주말 3부 패키지(20:00~다음날 06:00)처럼 심야 시간 이용도 가능합니다.</p></details>
+    <details><summary>예약 변경이나 취소는 어떻게 하나요?</summary><p>예약 후 날짜 변경은 불가능하며, 변경이 필요한 경우 취소 후 재예약해 주셔야 합니다. 자세한 환불 규정은 예약 시 안내드립니다.</p></details>
+  </section>
 </main>
 
+<div class="float-cta">
+  <a class="btn kakao" href="https://open.kakao.com/o/sBq7eswe" target="_blank" rel="noopener">카카오톡 문의</a>
+  <a class="btn" href="https://map.naver.com/p/entry/place/1653118958" target="_blank" rel="noopener">네이버 예약</a>
+</div>
+
 <footer>
-  <div class="wrap">
-    <div class="cols">
-      <div>
-        <p class="brand">스튜디오 온더탑</p>
-        <p>광교 파티룸 · 셀프사진관<br>돌잔치 · 백일상 · 브라이덜샤워 · 프로포즈 · 환갑연 · 스몰웨딩 · 회의실</p>
-        <div class="sns">
-          <a href="https://www.instagram.com/onthetop_official_kr/" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://blog.naver.com/onthetop88" target="_blank" rel="noopener">Blog</a>
-          <a href="https://onthetopchin.netlify.app" target="_blank" rel="noopener">中文</a>
-        </div>
-      </div>
-      <div>
-        <p><b style="color:var(--ivory)">예약 · 문의</b><br>
-        네이버 예약 / 카카오톡 오픈채팅<br>
-        전화 <a href="tel:010-5080-8209">010-5080-8209</a> · <a href="mailto:onthetop88@naver.com">onthetop88@naver.com</a><br>
-        연중무휴 24시간 운영</p>
+  <div class="cols">
+    <div>
+      <p class="brand">스튜디오 온더탑</p>
+      <p>광교 파티룸 · 셀프사진관<br>돌잔치 · 백일상 · 브라이덜샤워 · 프로포즈 · 환갑연 · 스몰웨딩 · 회의실</p>
+      <div class="sns">
+        <a href="https://www.instagram.com/onthetop_official_kr/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://blog.naver.com/onthetop88" target="_blank" rel="noopener">Blog</a>
+        <a href="cn.html">中文</a>
+        <a href="en.html">English</a>
       </div>
     </div>
-    <p class="biz">
-      스튜디오 온더탑 · 운영: (주)탑플렉스 스튜디오 · 대표: 현형진 · 사업자등록번호: 112-86-02208<br>
-      주소: 경기도 수원시 영통구 법조로 25, SK뷰레이크타워 오피스 A동 3516호 · 이메일: onthetop88@naver.com<br>
-      © 2026 스튜디오온더탑 All rights reserved.
-    </p>
+    <div>
+      <p><b style="color:var(--cream)">예약 · 문의</b><br>
+      네이버 예약 / 카카오톡 오픈채팅<br>
+      전화 <a href="tel:010-5080-8209">010-5080-8209</a> · <a href="mailto:onthetop88@naver.com">onthetop88@naver.com</a><br>
+      연중무휴 24시간 운영</p>
+    </div>
   </div>
+  <p class="biz">
+    스튜디오 온더탑 · 운영: (주)탑플렉스 스튜디오 · 대표: 현형진 · 사업자등록번호: 112-86-02208<br>
+    주소: 경기도 수원시 영통구 법조로 25, SK뷰레이크타워 오피스 A동 3516호 · 이메일: onthetop88@naver.com<br>
+    © 2026 스튜디오온더탑 All rights reserved.
+  </p>
 </footer>
 
 <script>
-// mobile menu
-const toggle = document.getElementById('menuToggle');
-const nav = document.getElementById('nav');
-toggle.addEventListener('click', () => nav.classList.toggle('open'));
-nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+// 탭 전환 (해시 라우팅)
+const tabIds = ['dol','bridal','propose','hwangap','meeting','wedding','access'];
+function showTab(id){
+  if(!tabIds.includes(id)) id = 'dol';
+  document.querySelectorAll('.page').forEach(p => p.classList.toggle('active', p.id === id));
+  document.querySelectorAll('.tabs a').forEach(a => a.classList.toggle('active', a.dataset.tab === id));
+  window.scrollTo({top:0, behavior:'instant'});
+}
+window.addEventListener('hashchange', () => showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1) || 'dol');
 
-// review marquee: duplicate track for seamless loop
+// 리뷰 마퀴 무한루프
 const rt = document.getElementById('reviewTrack');
 if (rt){ rt.innerHTML += rt.innerHTML; rt.querySelectorAll('.rcard').forEach((c,i)=>{ if(i>=rt.children.length/2) c.setAttribute('aria-hidden','true'); }); }
-
-// scroll reveal
-const io = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }
-  });
-}, {threshold:.1});
-document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 </script>
 
 </body>
