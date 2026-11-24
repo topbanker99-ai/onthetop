@@ -1,8 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://onthetop.kr/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onthetop.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onthetop.kr/en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://onthetop.kr/cn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onthetop.kr/"/>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20250122/52b38e74fc341.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/32286aa3fb182.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dol_baekil_table.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dol_cheotdol_table.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/1d524c3c76ac3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dol_setting_guide.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/9f1edacfc78bc.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0993e9f40cb9e.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/3022f45eb7f1b.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/catering_menu.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/14a3926352255.png</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b08963f96620a.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/43f0b5ec340b4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/a42fff1adebdc.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/18cc7b1d135b2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/287bd76b20bac.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/party3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/party1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/party2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/bridal_hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dress1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dress2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dress3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/dress4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/bridal_dress_guide.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/27f1afba23f70.png</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/propose_hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/80aa2f79bdafb.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/e0a4f4036d7df.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/8780678641ad6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/018cc61822bba.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0e4c704b84bec.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/6ccc9fdcd65f1.png</image:loc></image:image>
+    <image:image><image:loc>https://onthetop.kr/images/propose_price.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/3d33fa6253003.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/1856b5d17e94f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/36a12008f41bf.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/124299b786be1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ce7e6a2d0d781.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20250227/1ed87fe98b74d.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/4dce46bb30d02.png</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/3596ce6623811.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/12ca242049137.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/07edf48193559.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/21201fb12d5b6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ab47f14e5448b.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/795fc81dda26a.png</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/d6e83df6cace4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b1fcec1a9f136.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0a3a56e8f3f72.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/1e4dcb23b6187.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0e9fc1c6f929f.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/040447f023186.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260209/192655d7446da.png</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/upload/S202501222d792e3104ae6/369d9aa9c123b.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://onthetop.kr/en.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onthetop.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onthetop.kr/en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://onthetop.kr/cn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onthetop.kr/"/>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20250122/52b38e74fc341.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/8cabc3acdf226.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b23ff10473612.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/619d56c38ec30.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ebe1021abfe69.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/3596ce6623811.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/d6e83df6cace4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0993e9f40cb9e.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/74a45426ad072.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/43f0b5ec340b4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b2c57f35b83c1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/f5ce626571972.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/80aa2f79bdafb.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/4308587ddf263.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/c2564f2f00e33.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/21201fb12d5b6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ae5a471897020.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ab04b8f060c0d.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/421d9577b23ab.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://onthetop.kr/cn.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onthetop.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onthetop.kr/en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://onthetop.kr/cn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onthetop.kr/"/>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20250122/52b38e74fc341.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/8cabc3acdf226.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b23ff10473612.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/619d56c38ec30.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ebe1021abfe69.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/3596ce6623811.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/d6e83df6cace4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/0993e9f40cb9e.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/74a45426ad072.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/43f0b5ec340b4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/b2c57f35b83c1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/f5ce626571972.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/80aa2f79bdafb.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/4308587ddf263.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/c2564f2f00e33.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/21201fb12d5b6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ae5a471897020.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/ab04b8f060c0d.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cdn.imweb.me/thumbnail/20260221/421d9577b23ab.jpg</image:loc></image:image>
   </url>
 </urlset>
